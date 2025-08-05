@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f1f4fc;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #7aaed7, #5b82a6);
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #dce9f9;
+}
+
+.hero img {
+  width: 150px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 0.8rem;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.artwork-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.artwork-section h2 {
+  margin-bottom: 1rem;
+}
+
+.artworks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.artworks img {
+  width: 150px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.artworks img:hover {
+  transform: scale(1.05);
+}
